@@ -119,10 +119,10 @@ class Prompt{
     answer(){
 
         let msg = {
-            "gpt 4o": "Hello from Gpt 4o, add 3 prompts",
-            "gemini": "Hello from Gemini, add 3 prompts",
-            "llama 3": "Hello from Meta Llama 3, add 3 prompts",
-            "claude": "Hello from Claude, add 3 prompts",
+             "gemini": "Olá! Como posso ajudá-lo com seu projeto de Frontend ou Landing Pages? Precisa de ajuda com otimização, SEO ou responsividade?",
+            "gpt 4o": "Olá! Estou disponível para ajudar com inteligência artificial, automação ou criação de conteúdo. Em que posso ser útil?",
+            "llama 3": "Olá! Precisa de suporte com aprendizado de máquina ou análise de dados? Estou aqui para ajudar!",
+            "claude": "Olá! Posso auxiliar com processamento de linguagem natural, integração de IA ou automação. Conte comigo para o que precisar."
         }[this.chatModel]
 
         const text = document.createElement("div")

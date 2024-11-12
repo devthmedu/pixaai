@@ -102,7 +102,7 @@ function updateToggleModeBtn(){
 }
 
 
-const promptWindow =  new Prompt("#pixa-playground")
+const promptWindow =  new Prompt("#devthm-site")
 const promptForm = document.querySelector("#prompt-form")
 const promptInput = promptForm.querySelector("input[name='prompt']")
 
@@ -207,10 +207,16 @@ function closeVideo(){
  */
 
 const typed = new Typed('#prompts-sample', {
-    strings: ["How to solve a rubik's cube? Step by step guide", 
-                "What's Pixa playground?", 
-                "How to build an AI SaaS App?", 
-                "How to integrate Pixa API?"],
+  strings: [
+        "Como criar uma Landing Page de alta conversão?", 
+        "Quais são as melhores práticas para otimizar um site em React?", 
+        "Como melhorar o desempenho de uma página usando Vue.js?", 
+        "Quais estratégias de SEO posso usar para aumentar o tráfego da minha landing page?",
+        "Como criar interfaces responsivas para todos os dispositivos?",
+        "O que faz uma boa experiência de usuário em uma página de vendas?",
+        "Como integrar uma API em uma aplicação React?",
+        "Quais são as melhores técnicas de otimização para páginas web?"
+    ],
     typeSpeed: 80,
     smartBackspace: true, 
     loop: true,
